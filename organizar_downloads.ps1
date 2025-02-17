@@ -1,3 +1,9 @@
+#title          :organizar_downloads.ps1
+#description    :Organiza os arquivos na pasta Downloads em subpastas com suas extensões
+#author		 	:blackALT
+#date           :2025-02-17
+#version        :1.0  
+
 $DownloadsPath = [System.IO.Path]::Combine($env:USERPROFILE, 'Downloads')
 
 # Verifica se a pasta de Downloads existe
